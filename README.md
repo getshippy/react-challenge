@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Challenge
 
-App.jsx has three components, which need the following:
+App.jsx has three components, which need to implement the following:
 1. User.jsx -> get userId using API and render userId
 2. Header.jsx -> get current time and userInfo (using userId) and only rerender header component when minute changes
 3. Items.jsx -> submit items (comma separated values) to updateItem endpoint (which only takes one item at a time, with userId) and then render toast once all endpoints are successfully called.
